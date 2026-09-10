@@ -88,7 +88,7 @@ def render(report):
     lines = ["🎬 Magneto · Coprodução Reels", "Ciclo: 11/09–10/10 · mínimo 4/dia · 120; estendida 150.",
              progress, f"Meta até ontem: {report['expected_before_today']}. Aprovações gerais pendentes: {report['pending_approvals_all_workflows']}.",
              "Hoje: 1 diagnóstico; 1 demonstração; 1 caso/objeção; 1 resposta a decisor.",
-             "Próxima ação: escolha um tema comigo → gancho visual/falado + headline + CREMI + prompt OpenReply.",
+             "Próxima ação: escolha um tema comigo → gancho visual/falado + headline + estrutura de linguagem + prompt OpenReply.",
              "Antes do post: recompensa/link testados; campanha preparada; vincular media_id e confirmar ativação.",
              "Reserva proposta: 8 roteiros aprovados. Rascunhos NÃO contam como publicados."]
     lines.extend("⚠ " + item for item in report["issues"])

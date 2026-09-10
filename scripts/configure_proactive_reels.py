@@ -39,7 +39,7 @@ def main():
     if goal is None:
         goal = api('/goals', 'POST', {'slug': slug, 'project_id': 3,
             'title': 'Publicar 120 Reels em 30 dias; meta estendida 150',
-            'description': '11/09 a 10/10/2026 BRT: mínimo 4 Reels/dia. Magneto coproduz gancho visual/falado, headline, CREMI e prompt OpenReply antes do post. Contagem apenas por media_id REELS confirmado em workspace/reports/reels/published.json; drafts e tickets não são publicações. Sem publicação ou disparo não autorizado.',
+            'description': '11/09 a 10/10/2026 BRT: mínimo 4 Reels/dia. Magneto coproduz gancho visual/falado, headline, estrutura de linguagem e prompt OpenReply antes do post. Contagem apenas por media_id REELS confirmado em workspace/reports/reels/published.json; drafts e tickets não são publicações. Sem publicação ou disparo não autorizado.',
             'target_metric': 'Reels publicados únicos verificados', 'target_value': 120,
             'current_value': 0, 'due_date': '2026-10-10'})
     prompt = (f'Trabalhe somente no goal #{goal["id"]} (reels-120-150-20260911). '
@@ -48,7 +48,7 @@ def main():
         'Ignore tickets de outros goals no inbox. Não modifique campanhas nem publique. '
         'Consulte os tickets deste goal antes de criar; evite duplicatas por data/slot. '
         'Se há menos de 8 roteiros aprovados/prontos, proponha no máximo 2 novos roteiros completos por execução '
-        'com ID estável, evidência, 3 ganchos, CREMI, CTA e prompt OpenReply. Salve em workspace/reports/reels/. '
+        'com ID estável, evidência, 3 ganchos, estrutura de linguagem, CTA e prompt OpenReply. Salve em workspace/reports/reels/. '
         'Abra/atualize ticket de revisão para Felipe com caminho do material e pergunta concreta. '
         'Não espere 8 aprovações para reportar: informe ao Magneto os IDs e bloqueios. '
         'Não conte rascunhos como publicados nem complete a meta por tarefas concluídas. '
