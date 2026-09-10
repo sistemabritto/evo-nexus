@@ -7,6 +7,10 @@ metadata:
 
 # Gerador de Roteiro de Reels
 
+Para coprodução com Magneto, campanha OpenReply ou planejamento dos 120–150
+Reels, leia primeiro `references/coproducao-magneto.md`. Esse contrato atualiza
+o formato abaixo e os CTAs históricos da matriz para o pedido de 10/09/2026.
+
 ## Pipeline (nessa ordem)
 
 1. **Tema.** Se não vier pronto, puxe de `references/matriz-temas-sistemabritto.md`
